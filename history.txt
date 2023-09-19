@@ -1,0 +1,207 @@
+    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   11  git--version
+   13  git--version  
+   15  git version
+   16  brew install git
+   17  git version
+   18  git config --global user.name "Yuexi Zeng"
+   19  git config --global user.name “yuexizeng77@mail.com"\n\ngit config --global core.editor “code --wait"
+   20  git config --global init.defaultBranch main
+   21  git config --list
+   22  git config --global user.name “Yuexi Zeng”
+   23  git config --global user.email “yuexizeng77@gmail.com” 
+   24  git config --list
+   25  git config --global user.name “Yuexi Zeng” 
+   26  git config --list
+   32  mkdir git_practice
+   33  git status
+   34  cd git_practice
+   36  git init
+   38  git status
+   39  git add file_1.txt
+   40  git status
+   41  git commit -m 'create file_1.txt'
+   42  git status
+   43  git log
+   45  git status
+   46  git add file_2.txt
+   47  git stauts
+   48  git status
+   49  git log --oneline
+   54  git status
+   57  git clone https://github.com/zyuexi2/KaggleBikeShare.git
+   64  git status
+   69  git init
+   70  git add .
+   71  git commit -m "assd"
+   72  git push
+   73  git clone https://github.com/zyuexi2/KaggleBikeShare.git
+   74  git clone https://github.com/zyuexi2/KaggleBikeShare.git
+   76  git add .
+   77  git commit -m "share"
+   78  git push
+   79  git status
+   82  git status
+   83  git add .
+   84  git commit -m "try"
+   85  git push
+   86  git push
+   87  git push
+   88  git status
+   89  git push
+   92  git status
+   94  git push
+   96  git clone git@github.com:zyuexi2/KaggleBikeShare.git
+   97  git clone git@github.com:zyuexi2/KaggleBikeShare.git
+  100  git status
+  101  git add .
+  102  git status
+  103  git commit -m "Added data"
+  104  git status
+  105  git push
+  106  git push
+  107  git commit -m "Added data"
+  108  git status
+  109  git push
+  110  git add .
+  111  git status
+  112  git push
+  113  git rm BikeShareEDA.R
+  114  git status
+  115  git commit -m "Remove BikeShareEDA.R"
+  116  git push
+  117  git status
+  118  git add .
+  119  git status
+  120  git push
+  121  git pull
+  122  git push
+  123  git commit -m "Added data"
+  124  git status
+  125  git push
+  126   git commit -m "Added data"
+  127  git statu
+  128  git status
+  129  git statu
+  130  git add .
+  131  git push
+  132  git pull
+  133  git push
+  134  git add .
+  135  git push
+  136  git commit -m "Added data"
+  137  git status
+  138  git push
+  170  git add .
+  171  git commit -m "Add R plots"\n
+  172  git push
+  178  cd git_practice
+  179  touch .gitignore
+  180  nano .gitignore
+  184  cd git_practice
+  185  nano .gitignore
+  189  cd git_practice
+  190  touch .gitignore
+  192  git status
+  193  git add .
+  194  git commit -m "create gitignore"
+  196  git status
+  197  git status
+  198  git push
+  199  git branch features
+  200  git branch
+  201  git switch features
+  203  git add .
+  204  git commit -m 'create feature'
+  205  git add .
+  206  git commit -m 'add empty file'
+  207  git branch
+  208  git switch main
+  209  git log --oneline
+  210  git branch
+  211  git merge features
+  212  git branch
+  213  git log --oneline
+  215  git switch features
+  216  git add .
+  217  git commit
+  221  cd git_practice
+  222  git branch
+  224  git switch main
+  225  git merge features
+  226  git remote add origin git@github.com:zyuexi2/git-practice-zyuexi2.git
+  227  git push -u origin main
+  228  git branch
+  229  git branch -d features
+  230  git branch
+  231  git add
+  232  git add .
+  233  git commit -m "add empty file"
+  234  git push
+  239  git add .
+  240  git commit -m"wrangling" 
+  241  git push
+  243  git branch
+  244  git switch feature-zyuexi2\n
+  248  git -d _lab2.txt
+  249  git commit -m "lab2"
+  250  git push origin feature-zyuexi2
+  251  git add .
+  252  git commit -m "lab2"
+  253  git push
+  254  git push --set-upstream origin feature-zyuexi2\n
+  255  git branch
+  256  git swith main
+  257  git switch main
+  258  git branch
+  259  git push origion3 feature-zyuexi2
+  260  git push origin feature-zyuexi2
+  261  git status
+  262  git push
+  263  git add .
+  264  git commit -m"a"
+  265  git push
+  269  cd git-practice-csthomps
+  271  git status
+  272  git branch
+  273  git branch -c "feature-zyuexi2"
+  274  git branch
+  277  git aa .
+  278  git add .
+  279  git commit -m "new_file"
+  280  git push origin feature-zyuexi2
+  281  git remote -v
+  282  git status
+  283  git switch main
+  284  git switch feature-zyuexi2
+  287  git add .
+  288  git commit -m "cool"
+  289  git push origin feature-zyuexi2
+  302  git clone Write a program numbers_divisible_by.cpp that takes in three integer command line arguments: start, end, and divisor. The program should output all the integers between start and end, inclusive, that are divisible by divisor.\n\nYou can assume the user always provides valid integer inputs\nIf the start value is less than the end value, the program should iterate in increasing order\nIf the start value is greater than or equal to the end value, the program should iterate in decreasing order\nEach integer divisible by the divisor should be output on a separate line\nExample\n\n$ ./numbers_divisible_by 1 10 2\n2\n4\n6\n8\n10
+  303  git clone git@github.com:BYUCS235/cs235-assignments.git
+  308  git clone git@github.com:BYUCS235/cs235-assignments.git
+  333  git add .
+  334  git commit -m "model"
+  335  git push
+  339  cd git_practice
+  340  git pull
+  342  git log --oneline > gitlog.txt
+  343   history 0 | grep git > history.txt
+  344  git add .
+  345  git commit -m "lab2"
+  346  git push
+  347  git pull
+  348  git push
+  349  git pull
+  350  git config --global
+  351  git push
+  352  git pull
+  353  git branch
+  354  git switch feature-zyuexi2
+  356  cd git_practice
+  357  git branch
+  358  git switch feature_zyuexi2
+  359  git branch
+  360  git switch feature_zyuexii2
+  362  cd git-practice-zyuexi2
+  363  git log --oneline > gitlog.txt
